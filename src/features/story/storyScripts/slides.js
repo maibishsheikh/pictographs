@@ -21,7 +21,7 @@ export const STORY_SLIDES = [
     text: "Henry counts the apple row — there are 4 apple pictures — and shouts, \"4 students chose apples!\" Sophie gently stops him. \"Wait, Henry — check the key first! Each picture is worth 2 votes, so 4 pictures means 4 times 2.\"",
     highlight: "💡 4 pictures × 2 (the key) = 8 votes, not 4!",
     answer: "Always multiply the number of pictures by the key — never just count the pictures!",
-    image: '/assets/images/story/3.png,
+    image: '/assets/images/story/3.png',
   },
   {
     title: "Reading the Whole Graph 📊",
