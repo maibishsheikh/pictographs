@@ -1,0 +1,20 @@
+/* ════════════════════════════════════════════
+   Dyslexia-friendly theme
+   Applied via <body class="dyslexia-theme">
+   ════════════════════════════════════════════ */
+
+.dyslexia-theme,
+.dyslexia-theme .question-text,
+.dyslexia-theme .story-body,
+.dyslexia-theme .option-btn,
+.dyslexia-theme .wonder-question,
+.dyslexia-theme .speech-bubble {
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive, var(--font-body) !important;
+  letter-spacing: 0.03em;
+  line-height: 1.8;
+}
+
+.dyslexia-theme .story-body,
+.dyslexia-theme .question-text {
+  word-spacing: 0.16em;
+}

@@ -1,0 +1,50 @@
+/* ════════════════════════════════════════════
+   PictoQuest — Data Handling: Reading Pictographs — Design Tokens
+   ════════════════════════════════════════════ */
+
+:root {
+  /* ── Core palette ── */
+  --color-bg: #0a0a2e;
+  --color-surface: rgba(30, 30, 100, 0.7);
+  --color-primary: #ffc107;     /* gold — CTAs, active states */
+  --color-secondary: #7c5cbf;   /* purple — secondary elements */
+  --color-accent: #4caf50;      /* green — correct answers */
+  --color-error: #ef5350;       /* red — wrong answers */
+  --color-text: #ffffff;
+  --color-text-muted: rgba(255, 255, 255, 0.4);
+
+  /* ── Aliases used across components ── */
+  --gold: #ffc107;
+  --purple: #7c5cbf;
+  --purple-light: #9c7fd8;
+  --green: #4caf50;
+  --red: #ef5350;
+
+  /* ── World accents (3 worlds) ── */
+  --world-1: #F97316;   /* orange — Fun Fair Booth */
+  --world-2: #7C3AED;   /* violet — Classroom Survey */
+  --world-3: #0EA5E9;   /* sky blue — Data Detective Lab */
+
+  /* ── Pictograph-specific accent — the key/scale callout ── */
+  --picto-key: #ffd54f;  /* warm gold, distinct enough from --gold for emphasis layering */
+
+  /* ── Typography ── */
+  --font-display: 'Fredoka', 'Nunito', system-ui, sans-serif;
+  --font-body: 'Nunito', system-ui, sans-serif;
+
+  /* ── Radii ── */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --radius-pill: 999px;
+
+  /* ── Shadows ── */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.25);
+  --shadow-md: 0 6px 24px rgba(0, 0, 0, 0.35);
+  --shadow-glow-gold: 0 0 24px rgba(255, 193, 7, 0.35);
+
+  /* ── Transitions ── */
+  --transition-fast: 0.18s ease;
+  --transition-base: 0.3s ease;
+  --transition-spring: 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
